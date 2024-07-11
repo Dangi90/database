@@ -8,6 +8,10 @@ use studydb;
 #drop table tblproduct;
 
 
+ CREATE TABLE `User1` ( `uid`  VARCHAR(10), `name` VARCHAR(10), `hp`   CHAR(13), `age`  INT);
+
+
+
 create table `TblUser`(
 	`user_id` varchar(10),
     `user_name` varchar(10),
